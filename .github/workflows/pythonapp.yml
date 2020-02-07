@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest 
 
     steps:
-    - uses: actions/Iconfess
+    - uses: actions/@Iconfess
       with:
         python-version: 3.8
     - name: Read Real Random Confessions on your terminal
