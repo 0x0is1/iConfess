@@ -9,8 +9,13 @@ python: 2.7
 
 # Install the codecov pip dependency
 install:
-  - pip install -r req.txt
+  - pip install codecov
+  -pip install -r req.txt
 
 # Run the unit test
 script:
   - coverage run iconfess.py
+
+# Push the results back to codecov
+after_success:
+- codecov
