@@ -33,11 +33,6 @@ def banner():
     print('                                                                                               ')
 check()
 mainfun()
-while (True):
-    ask = raw_input('Press <Enter> or <q> quit: ')
-    if ask  == "":
-        mainfun()
-    else:
-        exit()
+
 
 
