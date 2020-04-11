@@ -13,4 +13,4 @@ install:
 
 # Run the unit test
 script:
-  - python iconfess.py
+  - python iconfess.py -v
