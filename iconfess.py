@@ -2,7 +2,7 @@ import requests
 import random
 from bs4 import BeautifulSoup
 import os
-import time 
+import sys 
 def mainfun():
     os.system('clear')
     banner()
@@ -22,25 +22,29 @@ def check():
         exit()
 
 def banner():
-    print('                                         ___      _                ____                        ')
-    print('                                        |_ _|    / \   _ __ ___   / ___|  ___  _ __ _ __ _   _ ')
-    print('                                         | |    / _ \ | |_   _ \  \___ \ / _ \|  __|  __| | | |')
-    print('                                         | |   / ___ \| | | | | |  ___) | (_) | |  | |  | |_| |')
-    print('                                        |___| /_/   \_\_| |_| |_| |____/ \___/|_|  |_|   \__, |')
-    print('                                                                                         |___/ ')
+    print('                                                           ____                        ')
+    print('                                                          / ___|  ___  _ __ _ __ _   _ ')
+    print('                                                          \___ \ / _ \|  __|  __| | | |')
+    print('                                                           ___) | (_) | |  | |  | |_| |')
+    print('                                                          | ___/ \___/|_|  |_|   \__, |')
+    print('                                                                                 |___/ ')
     print('                                                       <Sponsored By: http://dumb.com>         ')
     print('                                                   <Copyright: 0x0is1 (github.com/0x0is1)>     ')
     print('                                                                                               ')
 
 check()
-now = time.time()
-future = now + 10
-while (True):
-    ask = input('Press <Enter> or <q> quit: ')
-    if ask  != "" or now > future:
-        exit()
-        break
-    else:
-        mainfun()
+
+if __name__ == "__main__":
+    try: 
+        if sys.argv[1] == "-v":
+            print("iConfess v0.3")
+    except:
+        while (True):
+            ask = input('Press <Enter> or <q> quit: ')
+            if ask  != "":
+                exit()
+                break
+            else:
+                mainfun()
 
 
