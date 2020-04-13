@@ -26,4 +26,4 @@ jobs:
         pip install -r req.txt
     - name: Test with python3
       run: |
-        python3 iconfess.py
+        python3 iconfess.py -v
