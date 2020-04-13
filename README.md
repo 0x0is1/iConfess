@@ -1,5 +1,6 @@
 ![build](https://app.bitrise.io/app/0da6b9cc3d0ee7c0/status.svg?token=epiVlyy5Jiw5HxO5ZPV1VA&branch=master)
 [![Build Status](https://travis-ci.com/0x0is1/iConfess.svg?branch=master)](https://travis-ci.com/0x0is1/iConfess)
+![Python application](https://github.com/0x0is1/iConfess/workflows/Python%20application/badge.svg?branch=master)
 # iConfess
 ## Author: github.com/0x0is1
 ## IG: instagram.com/0x0is1
