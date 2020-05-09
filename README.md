@@ -13,6 +13,7 @@ Collection of bunch of real life confessions by the real people in your terminal
 
 iConfess doesn't have any intention to hurt ssomeones feeling, you can use it know what's actually going in others life that you are not aware of. Thanks for Visiting.
 
+## Preview
 [![Preview](./flame1.png)](./flame1.png)
 
 ### Usage:
