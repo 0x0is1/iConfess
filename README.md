@@ -1,6 +1,5 @@
 ![build](https://app.bitrise.io/app/0da6b9cc3d0ee7c0/status.svg?token=epiVlyy5Jiw5HxO5ZPV1VA&branch=master)
-[![Build Status](https://travis-ci.com/0x0is1/iConfess.svg?branch=master)](https://travis-ci.com/0x0is1/iConfess)
-![Python application](https://github.com/0x0is1/iConfess/workflows/Python%20application/badge.svg?branch=master)
+[![Build Status](https://travis-ci.com/StrinTH/iConfess.svg?branch=master)](https://travis-ci.com/StrinTH/iConfess) ![Python application](https://github.com/0x0is1/iConfess/workflows/Python%20application/badge.svg?branch=master)
 # iConfess
 ## Author: github.com/0x0is1
 ## IG: instagram.com/0x0is1
@@ -24,7 +23,8 @@ pip install -r req.txt
 python iconfess.py
 ```
 
-### Donate!
-Support the authors:
-### Paypal:
-https://paypal.me/0x0is1?locale.x=en_GB
+### **Support authors**:
+
+[![Donate](./assets/default-pink.png)](https://www.buymeacoffee.com/6dciIwk)
+
+[![Donate](./assets/-460.png)](https://paypal.me/0x0is1?locale.x=en_GB)
