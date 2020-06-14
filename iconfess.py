@@ -5,8 +5,6 @@ import os
 import sys 
 def main(index):
     def mainfun():
-        os.system('clear')
-        banner()
         rand_page = random.randint(1,52)
         url = 'http://dumb.com/confessions/page/' + str(rand_page)
         page = requests.get(url)
@@ -74,6 +72,8 @@ if __name__ == "__main__":
                 exit()
                 break
             else:
+                os.system('clear')
+                banner()
                 print(main(random.randint(1,2)))
 
 
