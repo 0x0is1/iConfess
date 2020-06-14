@@ -25,12 +25,15 @@ def main(index):
             'Content-Length': '32',
         }
 
-        data = 'Upgrade-Insecure-Requests: 1\\x0d\\x0a\\x0d\\x0a'
+        data = 'Upgrade-Insecure-Requests: 1'
 
         response = requests.post('https://boredhumans.com/confessions.php', headers=headers, data=data)
         soup = BeautifulSoup(response.content, 'html.parser')
         filter_ = soup.find_all('center')[1].find_all('center')[random.randint(0,2)]
-        return filter_.text 
+        if "None" in filter_.text:
+            mainfun2()
+        else:
+            return filter_.text
     if index == 1:
         return mainfun()
     elif index == 2:
